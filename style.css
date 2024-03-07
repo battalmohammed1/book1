@@ -1,0 +1,94 @@
+*{
+    direction: ltr;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(191, 251, 243); 
+}
+nav ul li{
+    display:inline;
+    float:left;
+    padding: 50px;
+    font-weight: 600;
+}
+nav ul li a:hover{
+    color: rgb(0, 0, 0);
+}
+h1{
+    padding: 20px;
+    left: 15px;
+    font-weight: 1500;
+}
+h1 span{
+    color: yellow;
+}
+section{
+    width: 223px;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 12px;
+    float: right;
+}
+img{
+    width: 100px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(254, 221, 90);
+    border-radius: 15px;
+    font-weight: bold;
+    padding: 15px;
+}
+a:hover{
+    color: rgb(0, 0, 0);
+}
+p{
+    font-size: 18px;
+}
+h1.b{
+    float: right;
+    color: rgb(0, 0, 0);
+    margin-top: 35px;
+}
+figure a{
+    float: right;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+form{
+    padding: 30px;
+    margin: 0 35px 20px 35px;
+    border: 2px solid rgb(244, 202, 168);
+    box-sizing: 2px 5px 8px 6px rgb(244, 202, 168);
+}
+form input{
+    width: 80%;
+    text-align: center;
+    padding: 13px;
+    background-color: #fff;
+    border-radius: 17px;
+}
+form textarea{
+    width: 80%;
+    background-color: #fff;
+    border-radius: 18px;
+    resize: none;
+    font-weight: bold;
+}
+form input[type="submit"]{
+
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(244, 202,168);
+}
+form input[type="submit"]:hover{
+    color: yellow;
+}
+footer{
+    clear: both;
+    padding: 10px;
+    text-align: center;
+}
